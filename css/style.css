@@ -557,3 +557,10 @@
     flex-direction: column;
     gap: 2rem;
   }
+
+  .contact-cont{
+    height: 33rem;
+    width: 65rem;
+    margin-bottom: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
