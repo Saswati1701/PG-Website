@@ -107,3 +107,18 @@
     
 })(jQuery);
 
+document.querySelectorAll('.faq-question').forEach(button => {
+    button.addEventListener('click', () => {
+      const faqAnswer = button.nextElementSibling;
+  
+      // Toggle the display of the clicked answer
+      faqAnswer.style.display = faqAnswer.style.display === 'block' ? 'none' : 'block';
+  
+      // Close all other answers
+      document.querySelectorAll('.faq-answer').forEach(answer => {
+        if (answer !== faqAnswer) {
+          answer.style.display = 'none';
+        }
+      });
+    });
+  });
