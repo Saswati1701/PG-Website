@@ -493,7 +493,7 @@
 .faq-container {
     display: flex;
     justify-content: space-between;
-    padding: 0rem 5rem 5rem 5rem;
+    padding: 1.5rem 5rem 5rem 5rem;
   }
   
   .faq-column {
