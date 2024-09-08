@@ -544,3 +544,16 @@
     justify-content: center;
     align-items: center;
   }
+
+  .addresses p{
+    line-height: 0.5rem;
+  }
+  .addressesCont{
+    display: flex;
+    gap: 3rem;
+  }
+  .addresses{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
