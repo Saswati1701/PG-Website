@@ -132,6 +132,35 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .veg-icon {
+        display: none !important;
+    }
+
+    .security {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-carousel .testimonial-item{
+        padding: 5px !important;
+    }
+
+    .owl-carousel .owl-stage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq-container{
+        flex-direction: column;
+        padding: 1.5rem 1rem 5rem 1rem !important;
+
+    }
+
+    .faq-item {
+        width: 20.5rem;
+    }
 }
 
 .page-header {
