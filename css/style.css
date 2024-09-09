@@ -231,6 +231,21 @@
     transition: .5s;
 }
 
+.food-service-item {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.food-service-item img {
+    padding-bottom: 20px;
+}
+
 .service-item:hover {
     background: var(--primary);
 }
@@ -442,6 +457,10 @@
     color: var(--secondary) !important;
 }
 
+.menu-item{
+    text-align: left;
+    padding-left: 3rem;
+}
 
 /*** Footer ***/
 .newsletter {
